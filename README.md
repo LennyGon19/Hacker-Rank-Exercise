@@ -1,33 +1,3 @@
 # Hacker-Rank-Exercise
+
 Exercises in Hacker-Rank for Warnups and Constructive Algorithms  
-
-Alice and Bob each created one problem for HackerRank. A reviewer rates the two challenges, awarding points on a scale from  to  for three categories: problem clarity, originality, and difficulty.
-
-We define the rating for Alice's challenge to be the triplet , and the rating for Bob's challenge to be the triplet .
-
-Your task is to find their comparison scores by comparing  with ,  with , and  with .
-
-If ai > bi, then alice is awarded a point
-If bi > ai, then Bob is awarded  point.
-If ai=bi, then neither person receives a point.
-Given  and , can you compare the two challenges and print their respective comparison points?
-
-Input Format
-
-The first line contains  space-separated integers, a0,a1, and a2, describing the respective values in triplet . 
-The second line contains  space-separated integers, b1,b2 , and b3, describing the respective values in triplet .
-
-Constraints
-
-Output Format
-
-Constraints
-1 <= ai <=100
-1 <= bi <= 100
-
-Output Format
-Print two space-separated integers denoting the respective comparison scores earned by Alice and Bob.
-sample input
-5 6 7           5 6 7
-3 6 10          8 9 10
-result : 1 1    result: 0 3
